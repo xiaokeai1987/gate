@@ -303,7 +303,7 @@ EDGE_HOSTS = [
     if h.strip()
 ]
 
-NODES_URL = os.environ.get("NODES_URL", "https://xiaokeai1987/gate.github.io/gate/nodes.txt")
+NODES_URL = os.environ.get("NODES_URL", "https://xiaokeai1987.github.io/gate/nodes.txt")
 
 def build_nodes_text(data):
     """生成纯节点行版本 (无注释): 每行 = 入口地址#名字$sstp://..."""
